@@ -1,0 +1,6 @@
+function sumarDosNumeros(a, b) {
+  var suma = a + b;
+  return suma;
+}
+
+sumarDosNumeros(2, 6); 
