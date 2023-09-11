@@ -4,9 +4,10 @@
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString(Tomas) {
-    // "Return" la string provista: Tomas
-    // Tu código: return Tomas
+function devolverString(str) {
+    // "Return" la string provista: str
+    // Tu código: 
+    return str
   } 
   
   function suma(x, y) {
@@ -53,7 +54,7 @@ else {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
-  if (str1.lenght === str2.lenght){
+  if (str1.length === str2.length){
     return true
   }
   else {
@@ -76,7 +77,8 @@ else {
     // De lo contrario, devuelve "false"
     // Tu código:
     if (num > 50){
-      return true}
+      return true
+    }
     else {
       return false
     }}
@@ -92,39 +94,39 @@ return resto}
     // De lo contrario, devuelve "false"
     // Tu código:
     
-    return (num % 2) === 0;
+    return (num % 2 === 0)      
     }
   
   function esImpar(num) {
     // Devuelve "true" si "num" es impar
     // De lo contrario, devuelve "false"
     // Tu código:
-    return (num % 2) != 0
+    return (num % 2 !== 0)
   }
   
   function elevarAlCuadrado(num) {
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
-    return Math.pow (num,2)
+    return Math.pow(num,2)
   }
   
   function elevarAlCubo(num) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
-    return Math.pow (num,3)
+    return Math.pow(num,3)
   }
   
   function elevar(num, exponent) {
     // Devuelve el valor de "num" elevado al exponente dado en "exponent"
     // Tu código:
-    return Math.pow (num, exponent)
+    return Math.pow(num, exponent)
   }
   
   function redondearNumero(num) {
     // Redondea "num" al entero más próximo y devuélvelo
     // Tu código:
- return Math.round(num) }
+    return Math.round(num) }
   
   function redondearHaciaArriba(num) {
     // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
@@ -166,26 +168,26 @@ return resto}
     // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
-    return nombre + '' + apellido
+    return nombre + ' ' + apellido
   }
   
   function obtenerSaludo(nombre) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
-    return 'Hola ' + nombre
+    return 'Hola ' + nombre + '!'
   }
   
   function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un rectángulo teniendo su altura y ancho
     // Tu código:
-    return (ancho * alto)
+    return ancho * alto
       }
   
   function retornarPerimetro(lado) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
-    return (lado * 4)
+    return lado * 4
   }
   
   function areaDelTriangulo(base, altura) {
@@ -198,7 +200,7 @@ return resto}
     //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
     //como parámetro un número de euros y calcule el cambio en dólares.
     //Escribe tu código aquí
-    return (euro * 1,20)
+    return euro * 1.20
   }
   
   // No modificar nada debajo de esta línea
